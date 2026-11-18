@@ -1842,3 +1842,30 @@ section,
     z-index: 2;
   }
 }
+
+
+/* Center Footer Content */
+#footer .footer-top>.row {
+  justify-content: center;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer .footer-about {
+  padding-right: 40px;
+}
+
+#footer .footer-links {
+  padding-left: 35px;
+}
+
+/* Mobile footer */
+@media (max-width: 767px) {
+
+  #footer .footer-about,
+  #footer .footer-links {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
